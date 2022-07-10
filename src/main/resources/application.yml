@@ -1,5 +1,21 @@
+logging:
+  file: 
+    name: logs/application.log
+  level:
+   ROOT: INFO
+   com.phenricks.study: TRACE
+   
 server:
   port: 8443
+  
+spring:
+  banner:
+    location: banner.txt   
+  profiles:
+    active: test
+  jpa: 
+    open-in-view: true
+
 springdoc:
   swagger-ui:
     path: /docs
