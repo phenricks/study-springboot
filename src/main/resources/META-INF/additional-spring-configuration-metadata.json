@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "matching-strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'matching-strategy'"
+  },
+  {
+    "name": "pathmatch",
+    "type": "java.lang.String",
+    "description": "A description for 'pathmatch'"
+  },
+  {
+    "name": "mvc",
+    "type": "java.lang.String",
+    "description": "A description for 'mvc'"
+  },
+  {
+    "name": "springdoc.swagger-ui.disable-execution",
+    "type": "java.lang.String",
+    "description": "A description for 'springdoc.swagger-ui.disable-execution'"
+  }
+]}

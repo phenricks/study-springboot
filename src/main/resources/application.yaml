@@ -1,0 +1,9 @@
+server:
+  port: 8443
+springdoc:
+  swagger-ui:
+    path: /docs
+    display-request-duration: true
+    disable-swagger-default-url: true
+    disable-execution: true
+    supported-submit-methods: ["get", "post", "put", "patch", "delete"]
